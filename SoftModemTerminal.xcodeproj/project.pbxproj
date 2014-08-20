@@ -21,6 +21,22 @@
 		C4A8689619A4819F00145917 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A8687819A4819F00145917 /* UIKit.framework */; };
 		C4A8689E19A4819F00145917 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4A8689C19A4819F00145917 /* InfoPlist.strings */; };
 		C4A868A019A4819F00145917 /* SoftModemTerminalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A8689F19A4819F00145917 /* SoftModemTerminalTests.m */; };
+		C4A868C619A481DB00145917 /* AudioQueueObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A868AA19A481DB00145917 /* AudioQueueObject.m */; };
+		C4A868C719A481DB00145917 /* AudioSignalAnalyzer.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A868AC19A481DB00145917 /* AudioSignalAnalyzer.m */; };
+		C4A868C819A481DB00145917 /* AudioSignalGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A868AE19A481DB00145917 /* AudioSignalGenerator.m */; };
+		C4A868C919A481DB00145917 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A868B119A481DB00145917 /* FlipsideViewController.m */; };
+		C4A868CA19A481DB00145917 /* FSKRecognizer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4A868B519A481DB00145917 /* FSKRecognizer.mm */; };
+		C4A868CB19A481DB00145917 /* FSKSerialGenerator.mm in Sources */ = {isa = PBXBuildFile; fileRef = C4A868B719A481DB00145917 /* FSKSerialGenerator.mm */; };
+		C4A868CC19A481DB00145917 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A868BA19A481DB00145917 /* MainViewController.m */; };
+		C4A868CD19A481DB00145917 /* MultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A868BC19A481DB00145917 /* MultiDelegate.m */; };
+		C4A868CE19A481DB00145917 /* SoftModemTerminalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A868BF19A481DB00145917 /* SoftModemTerminalAppDelegate.m */; };
+		C4A868CF19A481DB00145917 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A868C019A481DB00145917 /* FlipsideView.xib */; };
+		C4A868D019A481DB00145917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A868C119A481DB00145917 /* main.m */; };
+		C4A868D119A481DB00145917 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A868C219A481DB00145917 /* MainView.xib */; };
+		C4A868D219A481DB00145917 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4A868C319A481DB00145917 /* MainWindow.xib */; };
+		C4A868D319A481DB00145917 /* SoftModemTerminal-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4A868C519A481DB00145917 /* SoftModemTerminal-Info.plist */; };
+		C4A868D519A48C5D00145917 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A868D419A48C5D00145917 /* AudioToolbox.framework */; };
+		C4A868D719A48C6500145917 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4A868D619A48C6500145917 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,37 @@
 		C4A8689B19A4819F00145917 /* SoftModemTerminalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoftModemTerminalTests-Info.plist"; sourceTree = "<group>"; };
 		C4A8689D19A4819F00145917 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C4A8689F19A4819F00145917 /* SoftModemTerminalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftModemTerminalTests.m; sourceTree = "<group>"; };
+		C4A868A919A481DB00145917 /* AudioQueueObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioQueueObject.h; sourceTree = "<group>"; };
+		C4A868AA19A481DB00145917 /* AudioQueueObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioQueueObject.m; sourceTree = "<group>"; };
+		C4A868AB19A481DB00145917 /* AudioSignalAnalyzer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSignalAnalyzer.h; sourceTree = "<group>"; };
+		C4A868AC19A481DB00145917 /* AudioSignalAnalyzer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSignalAnalyzer.m; sourceTree = "<group>"; };
+		C4A868AD19A481DB00145917 /* AudioSignalGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSignalGenerator.h; sourceTree = "<group>"; };
+		C4A868AE19A481DB00145917 /* AudioSignalGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSignalGenerator.m; sourceTree = "<group>"; };
+		C4A868AF19A481DB00145917 /* CharReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharReceiver.h; sourceTree = "<group>"; };
+		C4A868B019A481DB00145917 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		C4A868B119A481DB00145917 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		C4A868B219A481DB00145917 /* FSKByteQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKByteQueue.h; sourceTree = "<group>"; };
+		C4A868B319A481DB00145917 /* FSKModemConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKModemConfig.h; sourceTree = "<group>"; };
+		C4A868B419A481DB00145917 /* FSKRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKRecognizer.h; sourceTree = "<group>"; };
+		C4A868B519A481DB00145917 /* FSKRecognizer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSKRecognizer.mm; sourceTree = "<group>"; };
+		C4A868B619A481DB00145917 /* FSKSerialGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSKSerialGenerator.h; sourceTree = "<group>"; };
+		C4A868B719A481DB00145917 /* FSKSerialGenerator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSKSerialGenerator.mm; sourceTree = "<group>"; };
+		C4A868B819A481DB00145917 /* lockfree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lockfree.h; sourceTree = "<group>"; };
+		C4A868B919A481DB00145917 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		C4A868BA19A481DB00145917 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C4A868BB19A481DB00145917 /* MultiDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiDelegate.h; sourceTree = "<group>"; };
+		C4A868BC19A481DB00145917 /* MultiDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiDelegate.m; sourceTree = "<group>"; };
+		C4A868BD19A481DB00145917 /* PatternRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternRecognizer.h; sourceTree = "<group>"; };
+		C4A868BE19A481DB00145917 /* SoftModemTerminalAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftModemTerminalAppDelegate.h; sourceTree = "<group>"; };
+		C4A868BF19A481DB00145917 /* SoftModemTerminalAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftModemTerminalAppDelegate.m; sourceTree = "<group>"; };
+		C4A868C019A481DB00145917 /* FlipsideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		C4A868C119A481DB00145917 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4A868C219A481DB00145917 /* MainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		C4A868C319A481DB00145917 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		C4A868C419A481DB00145917 /* SoftModemTerminal_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftModemTerminal_Prefix.pch; sourceTree = "<group>"; };
+		C4A868C519A481DB00145917 /* SoftModemTerminal-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SoftModemTerminal-Info.plist"; sourceTree = "<group>"; };
+		C4A868D419A48C5D00145917 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C4A868D619A48C6500145917 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A868D719A48C6500145917 /* AVFoundation.framework in Frameworks */,
+				C4A868D519A48C5D00145917 /* AudioToolbox.framework in Frameworks */,
 				C4A8687719A4819F00145917 /* CoreGraphics.framework in Frameworks */,
 				C4A8687919A4819F00145917 /* UIKit.framework in Frameworks */,
 				C4A8687519A4819F00145917 /* Foundation.framework in Frameworks */,
@@ -86,6 +135,35 @@
 				C4A8689919A4819F00145917 /* SoftModemTerminalTests */,
 				C4A8687319A4819F00145917 /* Frameworks */,
 				C4A8687219A4819F00145917 /* Products */,
+				C4A868A919A481DB00145917 /* AudioQueueObject.h */,
+				C4A868AA19A481DB00145917 /* AudioQueueObject.m */,
+				C4A868AB19A481DB00145917 /* AudioSignalAnalyzer.h */,
+				C4A868AC19A481DB00145917 /* AudioSignalAnalyzer.m */,
+				C4A868AD19A481DB00145917 /* AudioSignalGenerator.h */,
+				C4A868AE19A481DB00145917 /* AudioSignalGenerator.m */,
+				C4A868AF19A481DB00145917 /* CharReceiver.h */,
+				C4A868B019A481DB00145917 /* FlipsideViewController.h */,
+				C4A868B119A481DB00145917 /* FlipsideViewController.m */,
+				C4A868B219A481DB00145917 /* FSKByteQueue.h */,
+				C4A868B319A481DB00145917 /* FSKModemConfig.h */,
+				C4A868B419A481DB00145917 /* FSKRecognizer.h */,
+				C4A868B519A481DB00145917 /* FSKRecognizer.mm */,
+				C4A868B619A481DB00145917 /* FSKSerialGenerator.h */,
+				C4A868B719A481DB00145917 /* FSKSerialGenerator.mm */,
+				C4A868B819A481DB00145917 /* lockfree.h */,
+				C4A868B919A481DB00145917 /* MainViewController.h */,
+				C4A868BA19A481DB00145917 /* MainViewController.m */,
+				C4A868BB19A481DB00145917 /* MultiDelegate.h */,
+				C4A868BC19A481DB00145917 /* MultiDelegate.m */,
+				C4A868BD19A481DB00145917 /* PatternRecognizer.h */,
+				C4A868BE19A481DB00145917 /* SoftModemTerminalAppDelegate.h */,
+				C4A868BF19A481DB00145917 /* SoftModemTerminalAppDelegate.m */,
+				C4A868C019A481DB00145917 /* FlipsideView.xib */,
+				C4A868C119A481DB00145917 /* main.m */,
+				C4A868C219A481DB00145917 /* MainView.xib */,
+				C4A868C319A481DB00145917 /* MainWindow.xib */,
+				C4A868C419A481DB00145917 /* SoftModemTerminal_Prefix.pch */,
+				C4A868C519A481DB00145917 /* SoftModemTerminal-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +179,8 @@
 		C4A8687319A4819F00145917 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C4A868D619A48C6500145917 /* AVFoundation.framework */,
+				C4A868D419A48C5D00145917 /* AudioToolbox.framework */,
 				C4A8687419A4819F00145917 /* Foundation.framework */,
 				C4A8687619A4819F00145917 /* CoreGraphics.framework */,
 				C4A8687819A4819F00145917 /* UIKit.framework */,
@@ -199,6 +279,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = noviiro;
 				TargetAttributes = {
+					C4A8687019A4819F00145917 = {
+						DevelopmentTeam = JF5CK28GNR;
+					};
 					C4A8689119A4819F00145917 = {
 						TestTargetID = C4A8687019A4819F00145917;
 					};
@@ -228,9 +311,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A868CF19A481DB00145917 /* FlipsideView.xib in Resources */,
 				C4A8688D19A4819F00145917 /* Images.xcassets in Resources */,
+				C4A868D219A481DB00145917 /* MainWindow.xib in Resources */,
 				C4A8687F19A4819F00145917 /* InfoPlist.strings in Resources */,
 				C4A8688819A4819F00145917 /* Main.storyboard in Resources */,
+				C4A868D319A481DB00145917 /* SoftModemTerminal-Info.plist in Resources */,
+				C4A868D119A481DB00145917 /* MainView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +336,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4A868D019A481DB00145917 /* main.m in Sources */,
+				C4A868CB19A481DB00145917 /* FSKSerialGenerator.mm in Sources */,
 				C4A8688B19A4819F00145917 /* ViewController.m in Sources */,
+				C4A868CD19A481DB00145917 /* MultiDelegate.m in Sources */,
+				C4A868C919A481DB00145917 /* FlipsideViewController.m in Sources */,
+				C4A868CC19A481DB00145917 /* MainViewController.m in Sources */,
 				C4A8688519A4819F00145917 /* AppDelegate.m in Sources */,
 				C4A8688119A4819F00145917 /* main.m in Sources */,
+				C4A868CA19A481DB00145917 /* FSKRecognizer.mm in Sources */,
+				C4A868C619A481DB00145917 /* AudioQueueObject.m in Sources */,
+				C4A868C819A481DB00145917 /* AudioSignalGenerator.m in Sources */,
+				C4A868C719A481DB00145917 /* AudioSignalAnalyzer.m in Sources */,
+				C4A868CE19A481DB00145917 /* SoftModemTerminalAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +473,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoftModemTerminal/SoftModemTerminal-Prefix.pch";
 				INFOPLIST_FILE = "SoftModemTerminal/SoftModemTerminal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +490,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoftModemTerminal/SoftModemTerminal-Prefix.pch";
 				INFOPLIST_FILE = "SoftModemTerminal/SoftModemTerminal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
